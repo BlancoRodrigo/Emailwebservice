@@ -1,0 +1,90 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #1a1a1a;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+label, h1, p {
+  display: block;
+  color: #000; /* Cambia el color del texto a negro */
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0 10px 0;
+  background-color: #333333;
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+}
+
+textarea {
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0 10px 0;
+  resize: none;
+  height: 200px;
+  background-color: #333333;
+  border: none;
+  border-radius: 10px;
+}
+
+input[type="button"],
+button {
+  margin-right: 10px;
+  padding: 10px;
+  border: 0;
+  min-width: 100px;
+  border-radius: 8px;
+  background-color: #ff5722;
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  background-color: #333333;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  color: rgb(39, 131, 212);
+  text-decoration: none;
+}
+
+.dashboard {
+  width: 100%;
+  margin: 0;
+}
+
+.errorMessage {
+  background-color: #f2dede;
+  color: #a94442;
+  padding: 10px;
+}
